@@ -1,0 +1,75 @@
+/* Reset de estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8a4baf; /* Cor lilás */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #8a4baf; /* Cor lilás */
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #8a4baf; /* Cor lilás */
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.links ul li a:hover {
+    color: #5e2a8c; /* Lilás mais escuro */
+}
+
+footer {
+    background-color: #8a4baf; /* Cor lilás */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
